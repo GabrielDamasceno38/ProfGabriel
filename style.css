@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap'); /* Importa as fontes do Google Fonts */
+
+/* Remove margens e preenchimentos padrão de todos os elementos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o body com altura total, cor de fundo preta e texto claro */
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+/* Destaca o título com cor azul */
+.titulo-destaque{
+    color: #0165b7;
+}
+
+/* Container principal da apresentação, centraliza e espaça os itens */
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Conteúdo da apresentação, coluna com espaçamento entre os itens */
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Título do conteúdo, fonte Krona One e tamanho grande */
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+/* Texto do conteúdo, fonte Montserrat e tamanho médio */
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Container dos links, coluna centralizada e espaçada */
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+/* Subtítulo dos links, fonte Krona One e tamanho médio */
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* Estilo dos links: borda azul, largura fixa, centralizado, arredondado, fonte Montserrat */
+.apresentacao__links__link{
+    border: 2px solid #0165b7;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+}
